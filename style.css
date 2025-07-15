@@ -67,12 +67,13 @@ img{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     padding: 20px;
     text-align: center;
     margin: 0 auto;
     border-radius: 10px;
     gap: 10px;
+    max-width: 1200px;
 }
 
 .pokemonCard{
