@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(159, 177, 177);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(187, 164, 196);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.noName{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(170, 209, 209);
+    font-size: 30px;
+}
+.container h2 {
+    margin-bottom: 10px;
+}
+input[type='text']{
+    padding: 10px;
+}
+#inputName{
+    margin-bottom: 10px;
+    background-color: rgb(170, 209, 209);
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(170, 209, 209);
+    border: none;
+}
+.noName{
+    display: none;
+}
+
+.pokeCart{
+    display: flex;
+}
+
+.card{
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(175, 221, 221);
+}
+
+img{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.pokemonCard{
+    border: 1 solid black;
+    border-radius: 10px;
+    background-color: rgb(175, 221, 221);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.statName{
+    text-align:left;
+}
+
+#cardName{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.statName{
+    display: flex;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.statBase{
+    margin-left: auto;
+}
